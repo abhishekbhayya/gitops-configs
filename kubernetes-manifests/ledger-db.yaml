@@ -108,8 +108,7 @@ spec:
             - mountPath: /var/lib/postgresql/data
               name: postgresdb
               subPath: postgres
-      serviceAccount: bank-of-anthos
-      serviceAccountName: default
+      serviceAccount: default
       volumes:
         - emptyDir: {}
           name: postgresdb
