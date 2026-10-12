@@ -103,7 +103,7 @@ spec:
                 name: environment-config
             - configMapRef:
                 name: service-api-config
-          image: image: abhishekregis734.azurecr.io/bank-of-anthos/frontend:v0.6.4
+          image: abhishekregis734.azurecr.io/bank-of-anthos/frontend:v0.6.4
           livenessProbe:
             httpGet:
               path: /ready
